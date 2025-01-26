@@ -1,0 +1,30 @@
+﻿<Window x:Class="BubbleExe.BubbleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BubbleExe"
+        mc:Ignorable="d"
+        Title="Bubble" Height="128" Width="128"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent" Topmost="True">
+    <Viewbox HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Button Margin="0,0,0,0" Click="Button_Click" Width="128" Height="128">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="Transparent">
+                                    <ContentPresenter></ContentPresenter>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+
+            <Image x:Name="Image"/>
+        </Button>
+
+    </Viewbox>
+</Window>

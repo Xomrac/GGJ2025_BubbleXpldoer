@@ -1,0 +1,14 @@
+﻿<Window x:Class="BubbleExe.SoundWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BubbleExe"
+        mc:Ignorable="d"
+        Title="SoundWindow" Height="200" Width="200" Topmost="True">
+    <Grid>
+     
+        <Label Content="SOUND" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="36" Grid.ColumnSpan="3" />
+
+    </Grid>
+</Window>
